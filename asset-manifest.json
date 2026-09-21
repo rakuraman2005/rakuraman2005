@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/rakuraman2005/static/css/main.e2797126.css",
-    "main.js": "/rakuraman2005/static/js/main.8a647711.js",
+    "main.css": "/rakuraman2005/static/css/main.0c59a086.css",
+    "main.js": "/rakuraman2005/static/js/main.8628b9e1.js",
     "static/js/453.419a5d54.chunk.js": "/rakuraman2005/static/js/453.419a5d54.chunk.js",
     "static/media/raku pro pic 2.png": "/rakuraman2005/static/media/raku pro pic 2.593516178acad42d96b9.png",
     "static/media/skills.png": "/rakuraman2005/static/media/skills.b88c77293b3b129fa1ca.png",
     "index.html": "/rakuraman2005/index.html",
-    "main.e2797126.css.map": "/rakuraman2005/static/css/main.e2797126.css.map",
-    "main.8a647711.js.map": "/rakuraman2005/static/js/main.8a647711.js.map",
+    "main.0c59a086.css.map": "/rakuraman2005/static/css/main.0c59a086.css.map",
+    "main.8628b9e1.js.map": "/rakuraman2005/static/js/main.8628b9e1.js.map",
     "453.419a5d54.chunk.js.map": "/rakuraman2005/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2797126.css",
-    "static/js/main.8a647711.js"
+    "static/css/main.0c59a086.css",
+    "static/js/main.8628b9e1.js"
   ]
 }

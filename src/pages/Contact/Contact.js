@@ -24,24 +24,28 @@ import Swal from 'sweetalert2'
 
     if (data.success) {
       Swal.fire({
-  title: "Success!",
-  text: "Message sent!",
-  background:"black",
-  color:"white",
-  icon: "success",
-  
-});
+        title: "Success!",
+        text: "Message sent!",
+        background: "black",
+        color: "white",
+        iconHtml: '<span class="contact-success-icon"><span class="success-mark">✓</span></span>',
+        customClass: {
+          popup: 'swal2-popup',
+          icon: 'custom-success-icon'
+        },
+        showConfirmButton: true,
+        confirmButtonColor: "#2ecc71"
+      });
       setResult("Form Submitted Successfully");
       event.target.reset();
     } else {
-      console.log("Error", data);
       Swal.fire({
-  title: "FAILED!",
-  text: "Message not sent!",
-  icon: "error",
-  background:"black",
-  color:"white",
-});
+        title: "FAILED!",
+        text: "Message not sent!",
+        icon: "error",
+        background:"black",
+        color:"white",
+      });
       setResult(data.message);
     }
   };
@@ -70,10 +74,10 @@ import Swal from 'sweetalert2'
 
       <div className='contact-links'>
         <Marquee>
-       <a href='https://github.com/rakuraman2005'><img className='contact-img' src={require('./icons8-github-squared-100.png')} ></img> </a>
-       <a href='https://linkedin.com/in/rakuraman2005/'> <img className='contact-img' src={require('./icons8-linkedin-144.png')} href=''></img></a>
-       <a href='https://leetcode.com/u/rakuraman2005/'> <img className='contact-img' src={require('./icons8-leetcode-96.png')} href=''></img></a>
-        <a href='https://www.youtube.com/@rakuraman2005'> <img className='contact-img' src={require('./icons8-youtube-96.png')} href=''></img></a>
+       <a href='https://github.com/rakuraman2005'><img className='contact-img' src={require('./icons8-github-squared-100.png')} alt="github" ></img> </a>
+       <a href='https://linkedin.com/in/rakuraman2005/'> <img className='contact-img' src={require('./icons8-linkedin-144.png')} alt="linkedin" href=''></img></a>
+       <a href='https://leetcode.com/u/rakuraman2005/'> <img className='contact-img' src={require('./icons8-leetcode-96.png')} alt="leetcode" href=''></img></a>
+        <a href='https://www.youtube.com/@rakuraman2005'> <img className='contact-img' src={require('./icons8-youtube-96.png')} alt="youtube" href=''></img></a>
        </Marquee>
       </div>
       </>

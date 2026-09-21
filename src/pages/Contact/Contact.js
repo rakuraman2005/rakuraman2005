@@ -51,7 +51,7 @@ import Swal from 'sweetalert2'
     <>
     <section className='contact'>
     <form onSubmit={onSubmit}>
-     <center> <h2>Contact Form</h2></center>
+     <center> <h2>Contact</h2></center>
       <div className='Input-box'>
         <label>Full Name</label>
         <input type='text' className='field' placeholder='Enter your Name' name='name' required />
@@ -71,9 +71,9 @@ import Swal from 'sweetalert2'
       <div className='contact-links'>
         <Marquee>
        <a href='https://github.com/rakuraman2005'><img className='contact-img' src={require('./icons8-github-squared-100.png')} ></img> </a>
-       <a href='https://linkedin.com/in/rakuraman-s-68215221b'> <img className='contact-img' src={require('./icons8-linkedin-144.png')} href=''></img></a>
-       <a href='https://twitter.com/Rakuraman140705'> <img className='contact-img' src={require('./icons8-twitter-144.png')} href=''></img></a>
+       <a href='https://linkedin.com/in/rakuraman2005/'> <img className='contact-img' src={require('./icons8-linkedin-144.png')} href=''></img></a>
        <a href='https://leetcode.com/u/rakuraman2005/'> <img className='contact-img' src={require('./icons8-leetcode-96.png')} href=''></img></a>
+        <a href='https://www.youtube.com/@rakuraman2005'> <img className='contact-img' src={require('./icons8-youtube-96.png')} href=''></img></a>
        </Marquee>
       </div>
       </>

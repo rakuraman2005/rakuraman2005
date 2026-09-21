@@ -16,11 +16,7 @@ const hobbies = [
     title: "Learning New Tech",
     desc: "Digital design, VHDL, SystemVerilog, and full-stack development."
   },
-  {
-    icon: "🎧",
-    title: "Music",
-    desc: "Listening to music while coding to improve focus and creativity."
-  }
+ 
 ];
 
 const Hobbies = () => {

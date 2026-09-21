@@ -6,7 +6,7 @@ const Education = () => {
       institution: "Sri Krishna College of Engineering and Technology, Coimbatore",
       degree: "Bachelor of Engineering in Electronics and Communication",
       year: "2022 - 2026",
-      grade: "7.97 CGPA",
+      grade: "8.00 CGPA",
     },
     {
       institution: "Sri Ragavendra Matricultion Higher Secondary School, Salem",
@@ -31,7 +31,7 @@ const Education = () => {
             <p style={styles.degree}>{edu.degree}</p>
             <div style={styles.footer}>
               <span style={styles.year}>{edu.year}</span>
-              <span style={styles.grade}>Grade: {edu.grade}</span>
+              <span style={styles.grade}> {edu.grade}</span>
             </div>
           </div>
         ))}

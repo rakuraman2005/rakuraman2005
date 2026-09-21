@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/RAKURAMAN/static/css/main.6ab384cf.css",
-    "main.js": "/RAKURAMAN/static/js/main.9c330130.js",
-    "static/js/453.419a5d54.chunk.js": "/RAKURAMAN/static/js/453.419a5d54.chunk.js",
-    "static/media/raku pro pic 2.png": "/RAKURAMAN/static/media/raku pro pic 2.593516178acad42d96b9.png",
-    "static/media/skills.png": "/RAKURAMAN/static/media/skills.b88c77293b3b129fa1ca.png",
-    "index.html": "/RAKURAMAN/index.html",
-    "main.6ab384cf.css.map": "/RAKURAMAN/static/css/main.6ab384cf.css.map",
-    "main.9c330130.js.map": "/RAKURAMAN/static/js/main.9c330130.js.map",
-    "453.419a5d54.chunk.js.map": "/RAKURAMAN/static/js/453.419a5d54.chunk.js.map"
+    "main.css": "/rakuraman2005/static/css/main.6ab384cf.css",
+    "main.js": "/rakuraman2005/static/js/main.feb865df.js",
+    "static/js/453.419a5d54.chunk.js": "/rakuraman2005/static/js/453.419a5d54.chunk.js",
+    "static/media/raku pro pic 2.png": "/rakuraman2005/static/media/raku pro pic 2.593516178acad42d96b9.png",
+    "static/media/skills.png": "/rakuraman2005/static/media/skills.b88c77293b3b129fa1ca.png",
+    "index.html": "/rakuraman2005/index.html",
+    "main.6ab384cf.css.map": "/rakuraman2005/static/css/main.6ab384cf.css.map",
+    "main.feb865df.js.map": "/rakuraman2005/static/js/main.feb865df.js.map",
+    "453.419a5d54.chunk.js.map": "/rakuraman2005/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6ab384cf.css",
-    "static/js/main.9c330130.js"
+    "static/js/main.feb865df.js"
   ]
 }
